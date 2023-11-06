@@ -17,14 +17,23 @@ The data used in this project is sourced from Kaggle. It includes information ab
 The dataset contains the following columns:
 
 ID: Unique identifier for each restaurant.
+
 Area: The area where the restaurant is located.
+
 City: The city where the restaurant is situated.
+
 Restaurant: The name of the restaurant.
+
 Price: The average price range for dining at the restaurant.
+
 Avg Ratings: The average ratings given by customers.
+
 Total Ratings: The total number of ratings received by the restaurant.
+
 Food type: The types of cuisine offered by the restaurant.
+
 Address: The address of the restaurant.
+
 Delivery Time: The estimated delivery time for orders from the restaurant.
 
 Business Questions i have answered:
