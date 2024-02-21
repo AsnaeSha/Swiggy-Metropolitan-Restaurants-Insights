@@ -91,15 +91,12 @@ order by no_of_restaurants desc
 select food_type,count(*)as no_of_restaurant_offers from restaurant
 where city = 'Hyderabad'
 group by 1
-order by count(*) desc
+order by no_of_restaurant_offers desc
 
 -- Which restaurant offers the highest number of food types?
 select restaurant,count(distinct food_type)as num_food_types from restaurant
 group by 1
-order by count(distinct food_type) desc
-
--- select restaurant,food_type from restaurant
--- where restaurant = 'lassi shop'
+order by num_food_types desc
 
 -- How many restaurants have a rating above 4.0 in Bangalore?
 select count(*) from restaurant
